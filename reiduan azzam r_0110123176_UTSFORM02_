@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>UTS</title>
+</head>
+<body>
+    <fieldset>
+        <legend><strong>Booking Service</strong></legend>
+        <form action="reiduan azzam r_0110123176_utsform02.html">
+            <table>
+                <tr>
+                    <td>Jenis Kendaraan :</td>
+                    <td>
+                    <select name="jenis kendaraan" id="jenis kendaraan">
+                        <option value="pilih" selected disabled>--Silahkan Pilih--</option>
+                        <option value="minibus">Minibus</option>
+                        <option value="sedan">Sedan </option>
+                        <option value="jip">Jip</option>  
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama Pemesan :</td>
+                    <td><textarea name="" id="" cols="50" rows="1"></textarea></td>
+                </tr>    
+                <tr>
+                    <td>Kategori Peminjam :</td>
+                    <td>
+                        <input type="radio" name="kategori peminjam" value="Pribadi"> Pribadi
+                        <input type="radio" name="kategori peminjam" value="Perusahaan/Organisasi"> Perusahaan/Organisasi
+                    </td>
+                </tr>
+                <tr>
+                    <td>Deskripsi Kebutuhan :</td>
+                    <td><textarea name="" id="" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Service :</td>
+                    <td> <input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Request Montir :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Telepon/HP :</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><input type="Submit"></td>
+                    <td><input type="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
